@@ -1,0 +1,171 @@
+.Start2 {
+  background-color: #020230;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+input {
+  background-color: transparent;
+  border: 2px solid white;
+  box-shadow: 0px 0px 17px 2px rgb(255, 255, 255);
+  outline: none;
+  color: white;
+}
+.top {
+  z-index: 999;
+}
+.Left {
+  background-image: url("./assets/bg.jpg");
+  background-position: center;
+}
+.Rigth {
+  /* background-color: rgb(6 129 212 / 53%); */
+  background-color: #020230;
+}
+.container-main {
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.moneyListItem {
+  background-color: rgb(0, 255, 255);
+}
+.moneyListItem.active {
+  background-color: #020230;
+}
+
+.answer.correct {
+  animation: correct 3s ease forwards;
+}
+@keyframes correct {
+  0%,
+  22%,
+  42% {
+    background: #0202308a;
+  }
+  20%,
+  40%,
+  60% {
+    background: linear-gradient(#0e0124, #22074d);
+  }
+  62%,
+  100% {
+    background: green;
+  }
+}
+
+.answer.wrong {
+  animation: wrong 3s ease forwards;
+}
+@keyframes wrong {
+  0%,
+  22%,
+  42% {
+    background: mediumblue;
+  }
+  20%,
+  40%,
+  60% {
+    background: linear-gradient(#0e0124, #22074d);
+  }
+  62%,
+  100% {
+    background: crimson;
+  }
+}
+
+li,
+.soal {
+  background: linear-gradient(#100241, black);
+  padding: 10px;
+}
+
+.trivia {
+  height: 94.2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.bottom {
+  height: 50%;
+}
+.answer {
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(#0e0124, #22074d);
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 10px 20px 10px;
+}
+.question {
+  width: 80%;
+  background: linear-gradient(#100241, black);
+  border: 2px solid white;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  margin: 15px;
+}
+.answers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.answer:hover,
+.answer.active {
+  background: mediumblue;
+  cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .Rigth {
+    background-color: #0202308a;
+  }
+  .QuezApp {
+    position: absolute;
+    bottom: 51px;
+  }
+}
+
+/* Small devices (portrait tablets and larghones, 600px and up) */
+@media only screen and (min-width: 576px) {
+  .Rigth {
+    position: relative !important;
+    background-color: #020230;
+  }
+
+  .QuezApp {
+    position: relative;
+    bottom: 0;
+    height: 100%;
+    flex-flow: column;
+  }
+}
+
+/* Medium devices (landscape tablets, 768pxd up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px aup) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and dtops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
