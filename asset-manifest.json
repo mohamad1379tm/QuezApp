@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/QuezApp/static/css/main.467822ef.css",
-    "main.js": "/QuezApp/static/js/main.79a16007.js",
+    "main.css": "/QuezApp/static/css/main.bf705af9.css",
+    "main.js": "/QuezApp/static/js/main.7925a309.js",
     "static/media/bg.jpg": "/QuezApp/static/media/bg.c137ccd722d64133b4df.jpg",
     "index.html": "/QuezApp/index.html",
-    "main.467822ef.css.map": "/QuezApp/static/css/main.467822ef.css.map",
-    "main.79a16007.js.map": "/QuezApp/static/js/main.79a16007.js.map"
+    "main.bf705af9.css.map": "/QuezApp/static/css/main.bf705af9.css.map",
+    "main.7925a309.js.map": "/QuezApp/static/js/main.7925a309.js.map"
   },
   "entrypoints": [
-    "static/css/main.467822ef.css",
-    "static/js/main.79a16007.js"
+    "static/css/main.bf705af9.css",
+    "static/js/main.7925a309.js"
   ]
 }
